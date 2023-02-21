@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: #ccc;  
+}
+
+.container {
+    margin: auto;
+    max-width: 1024px;
+    padding: 8px;
+}
+
+/* Start:  Menu */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: royalblue;
+    padding: 16px;
+    color: white;
+}
+
+header > h1 {
+    font-style: italic;
+}
+
+nav > ul > li {
+    display: inline;
+    text-decoration: none;
+    margin-left: 16px;  
+    color: white;
+    
+}
+
+nav>ul>li>a {
+    text-decoration: none;
+    color: white;
+}
+
+/* End: Menu */
+
+/* Start: Sobre a Loja */
+
+.sobre-loja {
+    display: flex;
+    justify-content: space-between;
+}
+
+.img-store {
+    width: 50%;
+}
+
+.img-store > img {
+    width: 100%;
+    height: 100%;
+}
+
+.about-store {
+    padding: 0 16px;
+    width: 50%;
+    font-size: 18px;
+}
+
+.about-store > p {
+    margin: 8px;
+    text-align: justify;
+}
+
+/* End: Sobre a Loja */
+
+.titulo {
+    color: royalblue;
+    border-bottom: 4px solid royalblue;
+    width: 100%;
+    font-size: 16px;
+    padding-bottom: 16px;
+}
