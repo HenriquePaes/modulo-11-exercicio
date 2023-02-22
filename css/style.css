@@ -46,29 +46,19 @@ nav>ul>li>a {
 
 /* Start: Sobre a Loja */
 
-.sobre-loja {
-    display: flex;
-    justify-content: space-between;
+#about {
+    display: grid;
+    grid-template-columns: 50% 50%;
 }
 
-.img-store {
-    width: 50%;
+#about img {
+    max-width: 100%;
+    padding-right: 16px;
 }
 
-.img-store > img {
-    width: 100%;
-    height: 100%;
-}
-
-.about-store {
-    padding: 0 16px;
-    width: 50%;
-    font-size: 18px;
-}
-
-.about-store > p {
-    margin: 8px;
-    text-align: justify;
+#about p {
+    margin-bottom: 16px;
+    font-size: 16px;
 }
 
 /* End: Sobre a Loja */
@@ -79,4 +69,46 @@ nav>ul>li>a {
     width: 100%;
     font-size: 16px;
     padding-bottom: 16px;
+    margin-bottom: 16px;
 }
+
+/* Start: Produtos */
+
+.conteudo {
+    display: grid;
+    grid-template-columns: repeat(4, 24.25%);
+    column-gap: 1%;
+    row-gap: 5%;
+}
+
+.produto {
+    max-width: 100%;
+}
+
+.produto img {
+    width: 100%;
+    height: 70%;
+    margin-bottom: 3px;
+}
+
+.produto h3 {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.produto p {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.produto button {
+    border-radius: 12px;
+    padding: 10px 28px;
+    background-color: #008CBA;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+/* End: Produtos */
